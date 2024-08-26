@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import React from "react";
 
-export default function Home1Page() {
+export default function HomePage() {
   return (
     <div>
       <div>

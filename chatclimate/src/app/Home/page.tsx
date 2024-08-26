@@ -7,6 +7,6 @@ export const metadata: Metadata = {
   description:
     "ChatClimate.ai is dedicated to making climate risk comprihensable and climate information accessable. Discover our work, team and how to engage with us.",
 };
-export default function Home1Page() {
+export default function HomePage() {
   return <Page />;
 }
