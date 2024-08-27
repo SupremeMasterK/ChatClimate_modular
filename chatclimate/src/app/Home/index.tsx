@@ -340,10 +340,10 @@ export default function HomePage() {
                   className="w-[18%] h-[58px] object-contain md:w-full"
                 />
                 <Img
-                  src="img_shape.svg"
+                  src="img_frigg.png"
                   width={132}
                   height={56}
-                  alt="Shape Image"
+                  alt="Frigg Image"
                   className="w-[10%] h-[56px] ml-20 object-contain md:ml-0 md:w-full"
                 />
               </div>
@@ -371,10 +371,10 @@ export default function HomePage() {
               rightIcon={
                 <div className="h-[20px] w-[22px] flex items-center justify-center">
                   <Img
-                    src="img_save.svg"
+                    src="img_fly.svg"
                     width={22}
                     height={20}
-                    alt="Save"
+                    alt="Mail"
                     className="w-[22px] h-[20px] my-0.5"
                   />
                 </div>

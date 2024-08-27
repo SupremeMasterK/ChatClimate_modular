@@ -15,13 +15,13 @@ export default function Header({ ...props }: Props) {
 
   return (
     <header {...props} className={`${props.className} z-[2] relative`}>
-      <Text
+      {/* <Text
         size="texts"
         as="p"
         className="z-[3] text-[20px] !text-[#ffffff] mr-[350px] relative font-medium md:mr-0"
       >
         Companies
-      </Text>
+      </Text> */}
       <div className="mt-[-12px] relative flex flex-col items-end self-stretch">
         <img
           src="img_rectangle_9.png"
