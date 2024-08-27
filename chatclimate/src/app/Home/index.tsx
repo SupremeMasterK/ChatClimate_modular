@@ -114,48 +114,84 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center gap-1">
                     <Img
-                      src="img_screenschot_2024_07_03_1.png"
+                      src="img_screenschot_2024_07_03_7.png"
                       width={86}
-                      height={88}
-                      alt="Additional Screenshot"
-                      className="w-[24%] h-[88px] object-contain"
+                      height={86}
+                      alt="First Quartet Image"
+                      className="w-[86px] h-[86px] object-cover"
                     />
                     <Img
-                      src="img_screenschot_2024_07_03_1.png"
+                      src="img_screenschot_2024_07_03_8.png"
                       width={86}
-                      height={88}
-                      alt="Additional Screenshot"
-                      className="w-[24%] h-[88px] object-contain"
+                      height={86}
+                      alt="Second Quartet Image"
+                      className="w-[86px] h-[86px] object-cover"
                     />
                     <Img
-                      src="img_screenschot_2024_07_03_1.png"
+                      src="img_screenschot_2024_07_03_9.png"
                       width={86}
                       height={88}
-                      alt="Additional Screenshot"
-                      className="w-[24%] h-[88px] object-contain"
+                      alt="Third Quartet Image"
+                      className="w-[86px] h-[86px] object-cover"
                     />
                     <Img
-                      src="img_screenschot_2024_07_03_1.png"
+                      src="img_screenschot_2024_07_03_10.png"
                       width={86}
                       height={88}
-                      alt="Additional Screenshot"
+                      alt="Fourth Quartet Image"
                       className="w-[24%] h-[88px] object-contain"
                     />
                   </div>
-                  <div>
-                    <Img />
-                    <Img />
-                    <Img />
-                    <Img />
+                  <div className="flex gap-1">
+                    <Img
+                      src="img_screenschot_2024_07_03_11.png"
+                      width={88}
+                      height={88}
+                      alt="Penultimate Screenshot"
+                      className="w-[88px] h-[88px] object-cover"
+                    />
+                    <Img
+                      src="img_screenschot_2024_07_03_12.png"
+                      width={86}
+                      height={88}
+                      alt="Ultimate Screenshot"
+                      className="w-[24%] h-[88px] object-contain"
+                    />
+                    <Img
+                      src="img_screenschot_2024_07_03_13.png"
+                      width={86}
+                      height={88}
+                      alt="Pre Final Screenshot"
+                      className="w-[24%] h-[88px] object-contain"
+                    />
+                    <Img
+                      src="img_screenschot_2024_07_03_14.png"
+                      width={86}
+                      height={88}
+                      alt="Last Screenshot"
+                      className="w-[24%] h-[88px] object-contain"
+                    />
                   </div>
                 </div>
               </div>
             </div>
-            <Img />
+            <Img
+              src="img_rectangle_3.png"
+              width={1446}
+              height={606}
+              alt="Image"
+              className="mt-[-80px] h-[606px] relative w-full object-cover md:h-auto"
+            />
           </div>
-          <div>
-            <Img />
-            <div>
+          <div className="to-[#d0f9f1] from-[#daefec] sm:gap-[67px] md:gap-[100px] p-[26px] top-[29%] gap-[134px] absolute left-0 right-0 m-auto flex flex-1 flex-col items-center bg-gradient-to-b sm:p-5">
+            <Img
+              src="img_menu.svg"
+              width={24}
+              height={56}
+              alt="Menu Image"
+              className="w-[2%] h-[56px] object-contain"
+            />
+            <div className="gap-[26px] mb-[60px] w-[42%] flex flex-col items-start self-end md:w-full">
               <Heading>Who are we?</Heading>
               <Text>Lorem ipsum sit amet</Text>
               <Button>Know More</Button>
